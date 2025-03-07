@@ -4,6 +4,30 @@ export default function Bio(){
     <div className="flex gap-10 px-25 py-10 ">
         <div className="h-189 w-180 border-1 ">
         <h2  className="text-white text-center py-5 font-bold">About_Me_</h2>
+        <div className="text-center justify-center">
+        <span className="text-white leading-relaxed">
+           <p> I am Thillai Kavidhasu, a passionate full-stack developer with hands-on</p> 
+            <p>experience in building dynamic and scalable web applications. </p>
+            <p>From crafting intuitive front-end interfaces to designing robust back-end architectures,</p> 
+            <p>I thrive in solving complex problems with clean and efficient code. </p>
+            <p>My ability to work independently has shaped me into a self-reliant and adaptable developer,</p> 
+            <p>always eager to learn and innovate. Whether it&apos;s developing feature-rich applications </p>
+            <p>or optimizing performance, I turn challenges into opportunities for growth.</p>
+            </span>
+            </div>
+        <div className="flex gap-2 mt-75 ml-3">
+            <div className=" border-1 h-50 w-85 text-center ">
+                <p className="text-white font-bold">Strength_</p>
+                <span className="text-white leading-relaxed">I thrive in solitude, using it as a space for deep focus, creativity, and self-improvement. 
+                    My independence fuels my ability to solve problems, adapt, and continuously learn. 
+                    Every challenge I face alone strengthens my skills and determination.</span>
+            </div>
+            <div className=" border-1 h-50 w-85 text-center ">
+                <p className="text-white font-bold">Weakness_</p>
+                <span className="text-white leading-relaxed">Communication - I Try developing my Communication.</span>
+            </div>
+           
+        </div>
         </div>
         <div className="grid grid-cols-2 gap-4 text-center">
             <div className="h-92 w-120 border-1  ">
@@ -29,7 +53,11 @@ export default function Bio(){
             <h2  className="text-white text-center py-5 font-bold">Certification_</h2>
             <p className="text-white pt-2"> <span className="font-bold">Cource :</span> MERN Stack Development_ </p>
             <p className="text-white pt-1 "><span className="font-bold">Location :</span> Why Tap, Chennai_ </p>
-               
+            <div className="mt-4">
+            <p className="text-white pt-2"> <span className="font-bold">Cource :</span> Ethical Hacking_ </p>
+            <p className="text-white pt-1 "><span className="font-bold">Location :</span> Infosys_ </p>
+            </div>
+
             </div>
             <div className="h-92 w-120 border-1">
             <h2  className="text-white text-center py-5 font-bold">Language_</h2>
