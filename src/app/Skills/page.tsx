@@ -1,32 +1,34 @@
 import Image from "next/image";
 
-export default function Skill(){
-    return(
-        <>
-        <div className="grid grid-cols-1 gap-2 p-10">
-            <div className="h-189 w-full border-1 ">
-                <h2 className="text-white text-center p-5 font-bold">Tech_Skills_</h2>
+
+export default function Skill() {
+    return (
+        <div className="p-10">
+            <div className="border-1 rounded-lg p-5 ">
+                <h2 className="text-center text-xl font-bold mb-5 text-white">Tech Skills</h2>
                 
-                <div className="grid grid-cols-7 gap-10 m-25">
-                    <Image src="/js.png" alt="javascript"  width={80} height={80}></Image>
-                    <Image src="/html.png" alt="HTML5"  width={80} height={80}></Image>
-                    <Image src="/css3.png" alt="css3"  width={80} height={80}></Image>
-                    <Image src="/node.png" alt="node"  width={80} height={80}></Image>
-                    <Image src="/expressJS.png" alt="express"  width={80} height={80}></Image>
-                    <Image src="/react.png" alt="reactjs"  width={80} height={80}></Image>
-                    <Image src="/next-js.png" alt="nextjs"  width={80} height={80}></Image>
-                    <Image src="/native.png" alt="react native"  width={80} height={80}></Image>
-                    <Image src="/php.png" alt="php"  width={80} height={80}></Image>
-                    <Image src="/mysql.png" alt="mysql"  width={80} height={80}></Image>
-                    <Image src="/sqlite.png" alt="sqlite"  width={80} height={80}></Image>
-                    <Image src="/mongo.png" alt="mongo"  width={80} height={80}></Image>
-                    <Image src="/bootstarp.png" alt="bootstarp"  width={80} height={80}></Image>
-                    <Image src="/tailwind.png" alt="tailwind"  width={80} height={80}></Image>
-                    <Image src="/nativewind.png" alt="nativewind"  width={80} height={80}></Image>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 justify-items-center">
+                    {[ 
+                        { src: '/js.png', alt: 'JavaScript'},
+                        { src: '/html.png', alt: 'HTML5' },
+                        { src: '/css3.png', alt: 'CSS3' },
+                        { src: '/node.png', alt: 'Node.js' },
+                        { src: '/expressJS.png', alt: 'Express.js' },
+                        { src: '/react.png', alt: 'React.js' },
+                        { src: '/next-js.png', alt: 'Next.js' },
+                        { src: '/native.png', alt: 'React Native' },
+                        { src: '/php.png', alt: 'PHP' },
+                        { src: '/mysql.png', alt: 'MySQL' },
+                        { src: '/sqlite.png', alt: 'SQLite' },
+                        { src: '/mongo.png', alt: 'MongoDB' },
+                        { src: '/bootstarp.png', alt: 'Bootstrap' },
+                        { src: '/tailwind.png', alt: 'Tailwind CSS' },
+                        { src: '/nativewind.png', alt: 'NativeWind CSS' }
+                    ].map((skill, index) => (
+                        <Image key={index} src={skill.src} alt={skill.alt} width={100} height={100} className="rounded shadow-md hover:scale-110 transition-transform" />
+                    ))}
                 </div>
             </div>
-           
         </div>
-        </>
-    )
+    );
 }

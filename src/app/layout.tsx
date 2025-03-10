@@ -32,8 +32,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 
+   
            
-      <div className="border-b-2 border-black text-lg font-bold p-6  text-center rounded-b-full hidden md:flex justify-center space-x-10">
+      <div className="fixed top-0 left-0 w-full border-b-2 border-black text-lg font-bold p-6  text-center rounded-b-full hidden md:flex justify-center space-x-10">
         <Link className="p-2 text-white hover:text-gray-300" href="/">Home_</Link>
         <Link className="p-2 text-white hover:text-gray-300" href="/About">Bio_</Link>
         <Link className="p-2 text-white hover:text-gray-300" href="/Skills">Skills_</Link>
@@ -57,10 +58,12 @@ export default function RootLayout({
           </ul>
         </div>
       )}
-          
+
+         <div className="p-4 mt-25"> 
         {children}
+        </div>
        
-        <div className="h-10 w-full border-t-2 border-black flex gap-5 justify-center items-center p-4">
+        <div className="fixed bottom-0 left-0 w-full border-t-2 border-black flex gap-5 justify-center items-center p-4">
 
         <a href="https://www.linkedin.com/in/v-thillai-kavidhasu-b1a1bb2a3" target="_blank" rel="noopener noreferrer"
           className="flex items-center space-x-2  text-white  rounded-lg hover:text-gray-600 transition">
@@ -75,7 +78,7 @@ export default function RootLayout({
         <FaEnvelope size={20}/>
       </a>
       </div>
-
+      
       </body>
     </html>
   );
