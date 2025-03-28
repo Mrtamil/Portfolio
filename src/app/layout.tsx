@@ -65,11 +65,11 @@ export default function RootLayout({
        
         <div className="fixed bottom-0 left-0 w-full border-t-2 border-black flex gap-5 justify-center items-center p-4">
 
-        <a href="https://www.linkedin.com/in/v-thillai-kavidhasu-b1a1bb2a3" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.linkedin.com/in/v-thillai-kavidhasu-b1a1bb2a3" target="_blank" 
           className="flex items-center space-x-2  text-white  rounded-lg hover:text-gray-600 transition">
            <FaLinkedin size={20} />
         </a>
-       <a href="https://github.com/Mrtamil" target="_blank" rel="noopener noreferrer" 
+       <a href="https://github.com/Mrtamil" target="_blank"  
          className="flex items-center space-x-2 text-white  px-0.3 py-0.3 rounded-lg hover:text-gray-600 transition">
          <FaGithub size={20}/>
       </a>
