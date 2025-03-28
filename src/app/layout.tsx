@@ -59,7 +59,7 @@ export default function RootLayout({
         </div>
       )}
 
-         <div className="p-4 mt-25"> 
+         <div> 
         {children}
         </div>
        

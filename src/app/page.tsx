@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <>
-      <div className="h-auto p-78 flex flex-col items-center justify-center text-center px-6">
+      <div className=" p-70 flex flex-col items-center justify-center text-center px-6">
         <p className="text-3xl md:text-5xl font-bold text-white">
           Hello! I am <br />
           <span className="text-blue-600">Thillai Kavidhasu</span>, <br />
