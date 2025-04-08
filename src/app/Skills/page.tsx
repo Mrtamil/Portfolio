@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Skill() {
     return (
         <div className="p-10">
-            <div className="border-1 rounded-lg p-5 ">
-                <h2 className="text-center text-xl font-bold mb-5 text-white">Tech Skills</h2>
+            <div className="border-1 rounded-lg p-5 mt-20">
+                
                 
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 justify-items-center">
                     {[ 
@@ -25,7 +25,7 @@ export default function Skill() {
                         { src: '/tailwind.png', alt: 'Tailwind CSS' },
                         { src: '/nativewind.png', alt: 'NativeWind CSS' }
                     ].map((skill, index) => (
-                        <Image key={index} src={skill.src} alt={skill.alt} width={100} height={100} className="rounded shadow-md hover:scale-110 transition-transform" />
+                        <Image key={index} src={skill.src} alt={skill.alt} width={100} height={100} className="rounded shadow-md hover:scale-110 transition-transform h-20 w-21 bg-amber-50" />
                     ))}
                 </div>
             </div>

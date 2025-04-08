@@ -1,6 +1,6 @@
 export default function Bio() {
     return (
-        <div className="flex flex-col lg:flex-row gap-10 px-10 py-10 relative">
+        <div className=" flex flex-col lg:flex-row gap-10 px-10 py-35">
            
             <div className="w-full lg:w-1/2 border rounded-lg  p-5 shadow-lg hover:scale-110 transition-transform">
                 <h2 className="text-center text-xl font-bold mb-5 text-white">About Me</h2>

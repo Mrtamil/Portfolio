@@ -36,9 +36,9 @@ export default function RootLayout({
            
       <div className="fixed top-0 left-0 w-full border-b-2 border-black text-lg font-bold p-6  text-center rounded-b-full hidden md:flex justify-center space-x-10">
         <Link className="p-2 text-white hover:text-gray-300" href="/">Home_</Link>
-        <Link className="p-2 text-white hover:text-gray-300" href="/About">Bio_</Link>
-        <Link className="p-2 text-white hover:text-gray-300" href="/Skills">Skills_</Link>
-        <Link className="p-2 text-white hover:text-gray-300" href="/Projects">Projects_</Link>
+        <Link className="p-2 text-white hover:text-gray-300" href="/bio">Bio_</Link>
+        <Link className="p-2 text-white hover:text-gray-300" href="/skills">Skills_</Link>
+        <Link className="p-2 text-white hover:text-gray-300" href="/projects">Projects_</Link>
       </div>
 
      
@@ -52,14 +52,14 @@ export default function RootLayout({
         <div className="md:hidden bg-blue-600 text-center shadow-md absolute top-14 left-0 w-full">
           <ul className="flex flex-col space-y-4 p-4">
             <li><Link className="text-white hover:text-gray-300" href="/" onClick={() => setMenuOpen(false)}>Home_</Link></li>
-            <li><Link className="text-white hover:text-gray-300" href="/About" onClick={() => setMenuOpen(false)}>Bio_</Link></li>
-            <li><Link className="text-white hover:text-gray-300" href="/Skills" onClick={() => setMenuOpen(false)}>Skills_</Link></li>
-            <li><Link className="text-white hover:text-gray-300" href="/Projects" onClick={() => setMenuOpen(false)}>Projects_</Link></li>
+            <li><Link className="text-white hover:text-gray-300" href="/bio" onClick={() => setMenuOpen(false)}>Bio_</Link></li>
+            <li><Link className="text-white hover:text-gray-300" href="/skills" onClick={() => setMenuOpen(false)}>Skills_</Link></li>
+            <li><Link className="text-white hover:text-gray-300" href="/projects" onClick={() => setMenuOpen(false)}>Projects_</Link></li>
           </ul>
         </div>
       )}
 
-         <div> 
+         <div>
         {children}
         </div>
        

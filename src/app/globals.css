@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
 body {
-  background:url("../BG.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: black;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
