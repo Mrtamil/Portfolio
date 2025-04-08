@@ -5,7 +5,7 @@ export default function Project() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-10 mt-30 sm:p-5">
             {[ 
                 { img: '/p-1.png', title: 'Hospital Management System', frontend: 'React JS, Tailwind CSS', backend: 'Express JS, Node JS', database: 'MongoDB' },
-                { img: '/hms.png', title: 'Bus Ticket Booking System', frontend: 'React JS, Tailwind CSS', backend: 'Express JS, Node JS', database: 'MongoDB' },
+                { img: '/p-3.png', title: 'Bus Ticket Booking System', frontend: 'React JS, Tailwind CSS', backend: 'Express JS, Node JS', database: 'MongoDB' },
                 { img: '/p-2.png', title: 'Spotify Clone', frontend: 'React Native, NativeWind CSS', backend: 'Express JS, Node JS', database: 'MongoDB' },
                 { img: '/p-2.png', title: 'Spotify Clone', frontend: 'React Native, NativeWind CSS', backend: 'Express JS, Node JS', database: 'MongoDB' }
             ].map((project, index) => (
